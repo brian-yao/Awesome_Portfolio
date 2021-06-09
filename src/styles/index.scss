@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    // background: #e0e6db;
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 100%
+    );
+    background: -webkit-linear-gradient(top left, #eeaeca 0%, #94bbe9 100%);
+    background: -moz-linear-gradient(top left, #eeaeca 0%, #94bbe9 100%);
+    background: -o-linear-gradient(top left, #eeaeca 0%, #94bbe9 100%);
+    background: linear-gradient(to bottom right, #eeaeca 0%, #94bbe9 100%);
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-shadow: 4px 3px 3px #bf5fff, 4px 3px 3px #bf5fff, 4px 3px 3px #bf5fff;
+    letter-spacing: 5px;
+}
+
+li {
+    color: #40798c;
+    font-size: 1.2rem;
+    &:hover {
+        color: #bf5fff;
+    }
+}
+
+@import './background';
+@import './projects';
+@import './about';
+@import './footer';
