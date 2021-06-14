@@ -3,12 +3,13 @@ import PDF from '../static/Resume.pdf';
 import linkedin from '../images/linkedin.svg';
 import github from '../images/github.svg';
 import pdf_icon from '../images/pdf-icon.svg';
+import logo from '../images/logo.png';
 
-const Background = () => {
+const Home = () => {
     return (
         <div className="wrapper">
             <nav>
-                <h2>Brand</h2>
+                <img className="logo-img" src={logo} alt="Brian Yao" />
                 <ul>
                     <li>About</li>
                     <li>Portfolio</li>
@@ -58,4 +59,4 @@ const Background = () => {
         </div>
     );
 };
-export default Background;
+export default Home;

@@ -1,10 +1,15 @@
 import tech from '../images/sample-pic.jpg';
+import cat from '../images/cat.jpg';
+import music from '../images/music-player.jpg';
+import gaming from '../images/gaming.jpg';
+import checklist from '../images/checklist.jpg';
+import shop from '../images/shopping.jpg';
 
 const projectData = [
     {
-        title: 'Project',
+        title: 'Cat Voter',
         description: 'This is a test message, hello.',
-        image: tech,
+        image: cat,
         links: {
             github: 'Lorem, ipsum dolor.',
             demo: 'Lorem ipsum dolor sit amet.',
@@ -12,9 +17,9 @@ const projectData = [
         id: 0,
     },
     {
-        title: 'Project',
+        title: 'React Music Player',
         description: 'This is a test message, hello.',
-        image: tech,
+        image: music,
         links: {
             github: 'Lorem, ipsum dolor.',
             demo: 'Lorem ipsum dolor sit amet.',
@@ -22,9 +27,9 @@ const projectData = [
         id: 1,
     },
     {
-        title: 'Project',
+        title: 'React Gaming Site',
         description: 'This is a test message, hello.',
-        image: tech,
+        image: gaming,
         links: {
             github: 'Lorem, ipsum dolor.',
             demo: 'Lorem ipsum dolor sit amet.',
@@ -32,9 +37,9 @@ const projectData = [
         id: 2,
     },
     {
-        title: 'Project',
+        title: 'Online Shopping Demo ',
         description: 'This is a test message, hello.',
-        image: tech,
+        image: shop,
         links: {
             github: 'Lorem, ipsum dolor.',
             demo: 'Lorem ipsum dolor sit amet.',
@@ -42,9 +47,9 @@ const projectData = [
         id: 3,
     },
     {
-        title: 'Project',
+        title: 'To Do List App',
         description: 'This is a test message, hello.',
-        image: tech,
+        image: checklist,
         links: {
             github: 'Lorem, ipsum dolor.',
             demo: 'Lorem ipsum dolor sit amet.',
@@ -52,7 +57,7 @@ const projectData = [
         id: 4,
     },
     {
-        title: 'Project',
+        title: 'To be Added',
         description: 'This is a test message, hello.',
         image: tech,
         links: {
