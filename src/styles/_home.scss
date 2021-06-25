@@ -58,9 +58,15 @@ nav {
         display: flex;
         list-style: none;
     }
-    li {
+    .link {
+        text-decoration: none;
         margin-left: 4rem;
         cursor: pointer;
+        color: #40798c;
+        font-size: 1.2rem;
+        &:hover {
+            color: #bf5fff;
+        }
     }
 }
 

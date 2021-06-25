@@ -1,4 +1,4 @@
-#header {
+#projects-section {
     padding: 3rem 0;
     text-align: center;
     font-size: 3.5rem;
@@ -30,14 +30,19 @@
             margin: 2rem;
             height: 17rem;
             text-align: center;
-            p {
-                position: absolute;
-                color: white;
-                bottom: 0;
-                left: 0;
-                z-index: 99;
-                cursor: pointer;
+            &:hover {
+                .button-test {
+                    opacity: 0.5;
+                }
             }
+            // p {
+            //     position: absolute;
+            //     color: white;
+            //     bottom: 0;
+            //     left: 0;
+            //     z-index: 99;
+            //     cursor: pointer;
+            // }
             .img-container {
                 height: 100%;
                 cursor: pointer;
@@ -52,6 +57,29 @@
                     width: 100%;
                     height: 100%;
                 }
+            }
+            .button-test {
+                position: absolute;
+                top: 60%;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                width: 10rem;
+                opacity: 0;
+                transition: opacity 0.35s ease;
+                z-index: 99;
+                &:hover {
+                    opacity: 1;
+                }
+                // a {
+                //     color: white;
+                //     background: green;
+                //     border: solid 2px green;
+                //     border-radius: 50px;
+                //     padding: 5px;
+                //     text-decoration: none;
+                // }
             }
         }
     }

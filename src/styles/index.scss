@@ -25,15 +25,16 @@ h1 {
     letter-spacing: 5px;
 }
 
-li {
-    color: #40798c;
-    font-size: 1.2rem;
-    &:hover {
-        color: #bf5fff;
-    }
-}
+// li {
+//     color: #40798c;
+//     font-size: 1.2rem;
+//     &:hover {
+//         color: #bf5fff;
+//     }
+// }
 
 @import './home';
 @import './projects';
 @import './about';
 @import './footer';
+@import './modal';

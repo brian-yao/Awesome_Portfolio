@@ -8,7 +8,8 @@ import shop from '../images/shopping.jpg';
 const projectData = [
     {
         title: 'Cat Voter',
-        description: 'This is a test message, hello.',
+        description:
+            'User can vote to "like" or "nope" a cat and it will be saved to their list using session storage. The saved cats are then pulled from stored array and displayed on screen. Uses the Cat API, built using HTML CSS and JS.',
         image: cat,
         links: {
             github: 'Lorem, ipsum dolor.',
@@ -18,7 +19,8 @@ const projectData = [
     },
     {
         title: 'React Music Player',
-        description: 'This is a test message, hello.',
+        description:
+            'Music player app built using React and CSS. Loads music data from pre-curated JSON file.',
         image: music,
         links: {
             github: 'Lorem, ipsum dolor.',
@@ -28,7 +30,8 @@ const projectData = [
     },
     {
         title: 'React Gaming Site',
-        description: 'This is a test message, hello.',
+        description:
+            'Animated web page built using React, Redux, CSS, and HTML. The game data is pulled using API from rawg.io',
         image: gaming,
         links: {
             github: 'Lorem, ipsum dolor.',
@@ -38,7 +41,8 @@ const projectData = [
     },
     {
         title: 'Online Shopping Demo ',
-        description: 'This is a test message, hello.',
+        description:
+            'Online Shop demo built using PHP and html, with some javascript.',
         image: shop,
         links: {
             github: 'Lorem, ipsum dolor.',
@@ -48,7 +52,8 @@ const projectData = [
     },
     {
         title: 'To Do List App',
-        description: 'This is a test message, hello.',
+        description:
+            'Simple todo list app built using Javascript, html and css.',
         image: checklist,
         links: {
             github: 'Lorem, ipsum dolor.',

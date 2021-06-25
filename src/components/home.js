@@ -4,6 +4,7 @@ import linkedin from '../images/linkedin.svg';
 import github from '../images/github.svg';
 import pdf_icon from '../images/pdf-icon.svg';
 import logo from '../images/logo.png';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Home = () => {
     return (
@@ -11,13 +12,17 @@ const Home = () => {
             <nav>
                 <img className="logo-img" src={logo} alt="Brian Yao" />
                 <ul>
-                    <li>About</li>
-                    <li>Portfolio</li>
+                    <Link className="link" smooth to="#about-section">
+                        About
+                    </Link>
+                    <Link className="link" smooth to="#projects-section">
+                        Portfolio
+                    </Link>
                 </ul>
             </nav>
             <div className="intro">
                 <h1 className="my-name">Brian Yao</h1>
-                <p>Web Developer & Data Scientist</p>
+                <p>Web Developer &amp; Data Scientist</p>
                 <div className="socials">
                     <a
                         href="https://www.linkedin.com/in/brian-y-20bb2291/"
