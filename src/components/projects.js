@@ -1,22 +1,23 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import projectData from '../content/project_data';
 import { motion } from 'framer-motion';
-import Modal from '../components/modal';
 
 const Project = ({ title, description, image, id }) => {
-    const modal = useRef(null);
     return (
         <motion.div className="project-card" whileHover={{ scale: 1.1 }}>
             <h2>{title}</h2>
-            <div className="button-test">
-                <button onClick={() => modal.current.open()}>
-                    Click to View
-                </button>
+            <div className="demo">
+                <a
+                    href="https://www.google.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Demo
+                </a>
             </div>
             <div className="img-container">
                 <img src={image} alt="project" />
             </div>
-            <Modal ref={modal}>{description}</Modal>
         </motion.div>
     );
 };

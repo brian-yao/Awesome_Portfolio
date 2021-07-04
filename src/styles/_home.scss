@@ -54,11 +54,14 @@ nav {
     padding: 1rem 8rem;
     position: sticky;
     z-index: 5;
-    ul {
+    .page-links {
         display: flex;
         list-style: none;
     }
-    .link {
+    button {
+        background: none;
+        border: none;
+        padding: 0;
         text-decoration: none;
         margin-left: 4rem;
         cursor: pointer;

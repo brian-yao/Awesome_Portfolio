@@ -58,7 +58,7 @@
                     height: 100%;
                 }
             }
-            .button-test {
+            .demo {
                 position: absolute;
                 top: 60%;
                 left: 0;
@@ -72,14 +72,14 @@
                 &:hover {
                     opacity: 1;
                 }
-                // a {
-                //     color: white;
-                //     background: green;
-                //     border: solid 2px green;
-                //     border-radius: 50px;
-                //     padding: 5px;
-                //     text-decoration: none;
-                // }
+                a {
+                    color: white;
+                    background: green;
+                    border: solid 2px green;
+                    border-radius: 50px;
+                    padding: 5px;
+                    text-decoration: none;
+                }
             }
         }
     }

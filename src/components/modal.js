@@ -7,10 +7,10 @@ import React, {
 } from 'react';
 import { createPortal } from 'react-dom';
 
-const modalElement =
-    typeof document !== 'undefined' ? document.getElementById('portal') : null;
+const portalRoot =
+    typeof document !== `undefined` ? document.getElementById('portal') : null;
 
-const Modal = ({ children, defaultOpened = false }, ref) => {
+export function Modal({ children, defaultOpened = false }, ref) {
     const [isOpen, setIsOpen] = useState(defaultOpened);
     const close = useCallback(() => setIsOpen(false), []);
 
@@ -43,8 +43,8 @@ const Modal = ({ children, defaultOpened = false }, ref) => {
 
     return createPortal(
         isOpen ? <div className="modal">{children}</div> : null,
-        modalElement
+        portalRoot
     );
-};
+}
 
 export default forwardRef(Modal);

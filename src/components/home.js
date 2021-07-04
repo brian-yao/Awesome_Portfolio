@@ -4,21 +4,21 @@ import linkedin from '../images/linkedin.svg';
 import github from '../images/github.svg';
 import pdf_icon from '../images/pdf-icon.svg';
 import logo from '../images/logo.png';
-import { HashLink as Link } from 'react-router-hash-link';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Home = () => {
     return (
         <div className="wrapper">
             <nav>
                 <img className="logo-img" src={logo} alt="Brian Yao" />
-                <ul>
-                    <Link className="link" smooth to="#about-section">
+                <div className="page-links">
+                    <button onClick={() => scrollTo('#about-section')}>
                         About
-                    </Link>
-                    <Link className="link" smooth to="#projects-section">
-                        Portfolio
-                    </Link>
-                </ul>
+                    </button>
+                    <button onClick={() => scrollTo('#projects-section')}>
+                        Projects
+                    </button>
+                </div>
             </nav>
             <div className="intro">
                 <h1 className="my-name">Brian Yao</h1>

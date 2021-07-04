@@ -5,7 +5,7 @@ import '../styles/index.scss';
 import ProjectPage from '../components/projects';
 import About from '../components/about';
 import Footer from '../components/footer';
-import { BrowserRouter as Router } from 'react-router-dom';
+// import { BrowserRouter as Router } from 'react-router-dom';
 
 const IndexPage = () => {
     useEffect(() => {
@@ -13,13 +13,13 @@ const IndexPage = () => {
     }, []);
 
     return (
-        <Router>
+        <>
             <Seo title="Portfolio" />
             <Home />
             <About />
             <ProjectPage />
             <Footer />
-        </Router>
+        </>
     );
 };
 
