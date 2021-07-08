@@ -28,7 +28,6 @@ const Home = () => {
                         href="https://www.linkedin.com/in/brian-y-20bb2291/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        img={linkedin}
                     >
                         <img alt="LinkedIn" src={linkedin} />
                     </a>

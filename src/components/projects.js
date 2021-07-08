@@ -2,16 +2,13 @@ import React from 'react';
 import projectData from '../content/project_data';
 import { motion } from 'framer-motion';
 
-const Project = ({ title, description, image, id }) => {
+const Project = ({ title, image, demo, id }) => {
+    console.log(demo);
     return (
         <motion.div className="project-card" whileHover={{ scale: 1.1 }}>
             <h2>{title}</h2>
             <div className="demo">
-                <a
-                    href="https://www.google.com"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+                <a href={demo} target="_blank" rel="noreferrer">
                     Demo
                 </a>
             </div>
@@ -33,6 +30,7 @@ const ProjectPage = () => {
                             title={proj.title}
                             description={proj.description}
                             image={proj.image}
+                            demo={proj.demo}
                             key={proj.id}
                         />
                     );
