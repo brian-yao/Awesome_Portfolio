@@ -1,5 +1,4 @@
 import React from 'react';
-import PDF from '../static/Resume.pdf';
 import linkedin from '../images/linkedin.svg';
 import github from '../images/github.svg';
 import pdf_icon from '../images/pdf-icon.svg';
@@ -25,20 +24,20 @@ const Home = () => {
                 <p>Web Developer &amp; Data Scientist</p>
                 <div className="socials">
                     <a
-                        href="https://www.linkedin.com/in/brian-y-20bb2291/"
+                        href="./"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <img alt="LinkedIn" src={linkedin} />
                     </a>
                     <a
-                        href="https://github.com/brian-yao"
+                        href="./"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <img alt="Github" src={github} />
                     </a>
-                    <a href={PDF} target="_blank" rel="noopener noreferrer">
+                    <a href="./" target="_blank" rel="noopener noreferrer">
                         <img alt="PDF" src={pdf_icon} />
                     </a>
                 </div>
