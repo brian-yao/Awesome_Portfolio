@@ -24,20 +24,13 @@ const Home = () => {
                 <p>Web Developer &amp; Data Scientist</p>
                 <div className="socials">
                     <a
-                        href="./"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img alt="LinkedIn" src={linkedin} />
-                    </a>
-                    <a
-                        href="./"
+                        href="https://wwww.github.com/brian-yao"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <img alt="Github" src={github} />
                     </a>
-                    <a href="./" target="_blank" rel="noopener noreferrer">
+                    <a href="./static/Brian.pdf" target="_blank" rel="noopener noreferrer">
                         <img alt="PDF" src={pdf_icon} />
                     </a>
                 </div>

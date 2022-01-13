@@ -29,7 +29,7 @@ const projectData = [
         description:
             'Animated web page built using React, Redux, CSS, and HTML. The game data is pulled using API from rawg.io',
         image: gaming,
-        demo: 'https://objective-elion-761638.netlify.app/',
+        demo: 'https://brian-react-gaming.netlify.app',
         id: 2,
     },
     {
@@ -49,11 +49,11 @@ const projectData = [
         id: 4,
     },
     {
-        title: 'To be Added',
+        title: 'Movie List App',
         description: 'This is a test message, hello.',
         image: tech,
         github: 'Lorem, ipsum dolor.',
-        demo: '',
+        demo: 'https://brian-movie-app.netlify.app',
         id: 5,
     },
 ];
