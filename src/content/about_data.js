@@ -2,9 +2,12 @@ function aboutData() {
     return [
         {
             section: 'About',
-            text: `<p>•	Over 4 years of professional experience in front-end development using HTML/HTML5, CSS/CSS3, JavaScript, TypeScript, React, React Router, Redux, jQuery, Express, Node.js, JSON, XML, and various other web development tools to build cutting-edge web applications.</p>
+            text: `<p>Over 4 years of professional experience in front-end development using HTML/HTML5, CSS/CSS3, JavaScript, TypeScript, React, React Router, Redux, jQuery, Express, Node.js, JSON, XML, and various other web development tools to build cutting-edge web applications.</p>
             <br>
-            <p>I am passionate about learning new technologies and incorporating them in my personal projects. Aside from web development, I am also deeply interested in data science and user design. I believe that a minimalistic design paired with reliable functionality is the key to delivering a good product. Please contact me at <a href = "mailto: byao.dev@gmail.com">byao.dev@gmail.com</a>, if you are interested in working with me.</p>`,
+            <p>I am passionate about learning new technologies and incorporating them in my personal projects. Aside from web development, I am also deeply interested in data science and user design. I believe that a minimalistic design paired with reliable functionality is the key to delivering a good product. Please contact me at <a href = "mailto: byao.dev@gmail.com">byao.dev@gmail.com</a>, if you are interested in working with me.</p>
+            <br>
+            <p>A team player, I am open to criticism from all disciplines, and not afraid to share ideas. I understand that criticism is a part of the design process and the ability to give and receive constructive feedback is important for improving designs and creating stronger solutions.</p>
+            `,
             active: true,
         },
         {

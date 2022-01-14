@@ -1,5 +1,6 @@
 import React from 'react';
 import linkedin from '../images/linkedin.svg';
+import PDF from '../static/Brian.pdf';
 import github from '../images/github.svg';
 import pdf_icon from '../images/pdf-icon.svg';
 import logo from '../images/logo.png';
@@ -30,7 +31,7 @@ const Home = () => {
                     >
                         <img alt="Github" src={github} />
                     </a>
-                    <a href="./static/Brian.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href={PDF} target="_blank" rel="noopener noreferrer">
                         <img alt="PDF" src={pdf_icon} />
                     </a>
                 </div>
