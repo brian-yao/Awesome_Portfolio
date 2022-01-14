@@ -65,6 +65,8 @@
                 margin-left: auto;
                 margin-right: auto;
                 width: 100%;
+                background: rgb(2, 122, 221);
+                padding: 10px;
                 // opacity: 0;
                 // transition: opacity 0.35s ease;
                 z-index: 99;
@@ -73,8 +75,6 @@
                 // }
                 a {
                     color: white;
-                    background: rgb(15, 0, 223);
-                    border: solid 2px rgb(15, 0, 223);
                     padding: 8px;
                     text-decoration: none;
                     width: 100%;

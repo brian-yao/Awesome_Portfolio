@@ -9,7 +9,7 @@ const Project = ({ title, image, demo, id }) => {
             <h2>{title}</h2>
             <div className="demo">
                 <a href={demo} target="_blank" rel="noreferrer">
-                    Demo
+                    Click here to demo
                 </a>
             </div>
             <div className="img-container">
