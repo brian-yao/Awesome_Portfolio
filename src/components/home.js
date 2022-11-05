@@ -25,7 +25,7 @@ const Home = () => {
                 <p>Web Developer &amp; Data Scientist</p>
                 <div className="socials">
                     <a
-                        href="https://wwww.github.com/brian-yao"
+                        href="https://www.github.com/brian-yao"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
