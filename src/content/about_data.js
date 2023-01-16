@@ -17,7 +17,10 @@ function aboutData() {
                 <h4>Accomplishments and Working Experience:</h4>
                 <ul>
                 <li>Graduated Rutgers University with B.S. Computer Science</li>
-                <li>PayPal: Software engineer for i18n globalization team. Experience with Javascript, Node, Git, Agile.</li>
+                <li>PayPal: Worked on adding features and fixing bugs for Internationalization library using Node.js, Java, and Javascript.</li>
+                <li>Cedar: Responsible for creating efficient design and developing UI for the web application using HTML5, CSS3, JavaScript, Node.js, React, etc.</li>
+                <li>K Health: Created beautiful web interfaces by following advanced UI/UX guidelines using modern web development tech and tools.</li>
+                <li>Policy Genius: Developed front-end applications and user interface using React</li>
                 <li>Comcast: Completed 6-month internship in Data Science, Data Engineering, and Machine Learning.</li>
                 <li>Open source contributor.</li>
                 </ul>

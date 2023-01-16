@@ -7,5 +7,5 @@
 <p align="center">
  <i>Built using Gatsby + React 🚀
  <br> Mobile responsive ✨
+ <br> Node v15
 <p>
-
