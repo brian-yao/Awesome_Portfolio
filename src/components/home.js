@@ -22,7 +22,7 @@ const Home = () => {
             </nav>
             <div className="intro">
                 <h1 className="my-name">Brian Yao</h1>
-                <p>Web Developer &amp; Data Scientist</p>
+                <p>Full-stack Developer</p>
                 <div className="socials">
                     <a
                         href="https://www.github.com/brian-yao"
