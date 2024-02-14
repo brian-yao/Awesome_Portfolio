@@ -33,11 +33,11 @@ const projectData = [
         id: 2,
     },
     {
-        title: 'Online Shopping Demo ',
+        title: 'Full-Stack Shopping Cart',
         description:
-            'Online Shop demo built using PHP and html, with some javascript.',
+            'E-Commerce site built using Typescript, Next.js, Google Auth, and Prisma.',
         image: shop,
-        demo: 'http://eve.kean.edu/~yaob/CPS5920/',
+        demo: 'https://nextjs-store-mu.vercel.app/',
         id: 3,
     },
     {

@@ -1,6 +1,6 @@
 import React from 'react';
 import linkedin from '../images/linkedin.svg';
-import PDF from '../static/Brian.pdf';
+import PDF from '../static/Brian_Yao.pdf';
 import github from '../images/github.svg';
 import pdf_icon from '../images/pdf-icon.svg';
 import logo from '../images/logo.png';

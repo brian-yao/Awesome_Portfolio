@@ -33,14 +33,7 @@ module.exports = {
             options: {
                 fonts: [`Roboto`, `Open Sans`, `Rancho`, `Lato`, `Montserrat`],
                 display: 'swap',
-            },
-        },
-        {
-            resolve: `gatsby-plugin-portal`,
-            options: {
-                key: 'portal',
-                id: 'portal',
-            },
-        },
+            }
+        }
     ],
 };
